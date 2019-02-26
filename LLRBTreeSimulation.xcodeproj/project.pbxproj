@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821FA58B2224D629005796AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA58A2224D629005796AF /* AppDelegate.m */; };
+		821FA58D2224D629005796AF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 821FA58C2224D629005796AF /* GameScene.sks */; };
+		821FA58F2224D629005796AF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 821FA58E2224D629005796AF /* Actions.sks */; };
+		821FA5952224D629005796AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5942224D629005796AF /* ViewController.m */; };
+		821FA5972224D62A005796AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821FA5962224D62A005796AF /* Assets.xcassets */; };
+		821FA59A2224D62A005796AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821FA5982224D62A005796AF /* Main.storyboard */; };
+		821FA5A82224D62A005796AF /* LLRBTreeSimulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5A72224D62A005796AF /* LLRBTreeSimulationTests.m */; };
+		821FA5B32224D62A005796AF /* LLRBTreeSimulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5B22224D62A005796AF /* LLRBTreeSimulationUITests.m */; };
+		821FA5C62224D65F005796AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5C02224D65E005796AF /* main.m */; };
+		821FA5C72224D65F005796AF /* LLRBNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5C22224D65E005796AF /* LLRBNode.m */; };
+		821FA5C82224D65F005796AF /* LLRBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5C32224D65E005796AF /* LLRBTree.m */; };
+		821FA5C92224D65F005796AF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA5C42224D65F005796AF /* GameScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821FA5A42224D62A005796AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821FA57E2224D629005796AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821FA5852224D629005796AF;
+			remoteInfo = LLRBTreeSimulation;
+		};
+		821FA5AF2224D62A005796AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821FA57E2224D629005796AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821FA5852224D629005796AF;
+			remoteInfo = LLRBTreeSimulation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821FA5862224D629005796AF /* LLRBTreeSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLRBTreeSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FA5892224D629005796AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		821FA58A2224D629005796AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		821FA58C2224D629005796AF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		821FA58E2224D629005796AF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		821FA5902224D629005796AF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		821FA5932224D629005796AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		821FA5942224D629005796AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		821FA5962224D62A005796AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821FA5992224D62A005796AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821FA59B2224D62A005796AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821FA59E2224D62A005796AF /* LLRBTreeSimulation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LLRBTreeSimulation.entitlements; sourceTree = "<group>"; };
+		821FA5A32224D62A005796AF /* LLRBTreeSimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLRBTreeSimulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FA5A72224D62A005796AF /* LLRBTreeSimulationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRBTreeSimulationTests.m; sourceTree = "<group>"; };
+		821FA5A92224D62A005796AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821FA5AE2224D62A005796AF /* LLRBTreeSimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLRBTreeSimulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FA5B22224D62A005796AF /* LLRBTreeSimulationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRBTreeSimulationUITests.m; sourceTree = "<group>"; };
+		821FA5B42224D62A005796AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821FA5C02224D65E005796AF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		821FA5C12224D65E005796AF /* LLRBTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRBTree.h; sourceTree = "<group>"; };
+		821FA5C22224D65E005796AF /* LLRBNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRBNode.m; sourceTree = "<group>"; };
+		821FA5C32224D65E005796AF /* LLRBTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRBTree.m; sourceTree = "<group>"; };
+		821FA5C42224D65F005796AF /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		821FA5C52224D65F005796AF /* LLRBNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRBNode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821FA5832224D629005796AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA5A02224D62A005796AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA5AB2224D62A005796AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821FA57D2224D629005796AF = {
+			isa = PBXGroup;
+			children = (
+				821FA5882224D629005796AF /* LLRBTreeSimulation */,
+				821FA5A62224D62A005796AF /* LLRBTreeSimulationTests */,
+				821FA5B12224D62A005796AF /* LLRBTreeSimulationUITests */,
+				821FA5872224D629005796AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821FA5872224D629005796AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821FA5862224D629005796AF /* LLRBTreeSimulation.app */,
+				821FA5A32224D62A005796AF /* LLRBTreeSimulationTests.xctest */,
+				821FA5AE2224D62A005796AF /* LLRBTreeSimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821FA5882224D629005796AF /* LLRBTreeSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				821FA5892224D629005796AF /* AppDelegate.h */,
+				821FA58A2224D629005796AF /* AppDelegate.m */,
+				821FA58C2224D629005796AF /* GameScene.sks */,
+				821FA58E2224D629005796AF /* Actions.sks */,
+				821FA5902224D629005796AF /* GameScene.h */,
+				821FA5932224D629005796AF /* ViewController.h */,
+				821FA5942224D629005796AF /* ViewController.m */,
+				821FA5962224D62A005796AF /* Assets.xcassets */,
+				821FA5982224D62A005796AF /* Main.storyboard */,
+				821FA5C42224D65F005796AF /* GameScene.m */,
+				821FA5C52224D65F005796AF /* LLRBNode.h */,
+				821FA5C22224D65E005796AF /* LLRBNode.m */,
+				821FA5C12224D65E005796AF /* LLRBTree.h */,
+				821FA5C32224D65E005796AF /* LLRBTree.m */,
+				821FA5C02224D65E005796AF /* main.m */,
+				821FA59B2224D62A005796AF /* Info.plist */,
+				821FA59E2224D62A005796AF /* LLRBTreeSimulation.entitlements */,
+			);
+			path = LLRBTreeSimulation;
+			sourceTree = "<group>";
+		};
+		821FA5A62224D62A005796AF /* LLRBTreeSimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				821FA5A72224D62A005796AF /* LLRBTreeSimulationTests.m */,
+				821FA5A92224D62A005796AF /* Info.plist */,
+			);
+			path = LLRBTreeSimulationTests;
+			sourceTree = "<group>";
+		};
+		821FA5B12224D62A005796AF /* LLRBTreeSimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821FA5B22224D62A005796AF /* LLRBTreeSimulationUITests.m */,
+				821FA5B42224D62A005796AF /* Info.plist */,
+			);
+			path = LLRBTreeSimulationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821FA5852224D629005796AF /* LLRBTreeSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FA5B72224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulation" */;
+			buildPhases = (
+				821FA5822224D629005796AF /* Sources */,
+				821FA5832224D629005796AF /* Frameworks */,
+				821FA5842224D629005796AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLRBTreeSimulation;
+			productName = LLRBTreeSimulation;
+			productReference = 821FA5862224D629005796AF /* LLRBTreeSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821FA5A22224D62A005796AF /* LLRBTreeSimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FA5BA2224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulationTests" */;
+			buildPhases = (
+				821FA59F2224D62A005796AF /* Sources */,
+				821FA5A02224D62A005796AF /* Frameworks */,
+				821FA5A12224D62A005796AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821FA5A52224D62A005796AF /* PBXTargetDependency */,
+			);
+			name = LLRBTreeSimulationTests;
+			productName = LLRBTreeSimulationTests;
+			productReference = 821FA5A32224D62A005796AF /* LLRBTreeSimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821FA5AD2224D62A005796AF /* LLRBTreeSimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FA5BD2224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulationUITests" */;
+			buildPhases = (
+				821FA5AA2224D62A005796AF /* Sources */,
+				821FA5AB2224D62A005796AF /* Frameworks */,
+				821FA5AC2224D62A005796AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821FA5B02224D62A005796AF /* PBXTargetDependency */,
+			);
+			name = LLRBTreeSimulationUITests;
+			productName = LLRBTreeSimulationUITests;
+			productReference = 821FA5AE2224D62A005796AF /* LLRBTreeSimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821FA57E2224D629005796AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Simon Lam";
+				TargetAttributes = {
+					821FA5852224D629005796AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					821FA5A22224D62A005796AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 821FA5852224D629005796AF;
+					};
+					821FA5AD2224D62A005796AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 821FA5852224D629005796AF;
+					};
+				};
+			};
+			buildConfigurationList = 821FA5812224D629005796AF /* Build configuration list for PBXProject "LLRBTreeSimulation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821FA57D2224D629005796AF;
+			productRefGroup = 821FA5872224D629005796AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821FA5852224D629005796AF /* LLRBTreeSimulation */,
+				821FA5A22224D62A005796AF /* LLRBTreeSimulationTests */,
+				821FA5AD2224D62A005796AF /* LLRBTreeSimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821FA5842224D629005796AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FA58D2224D629005796AF /* GameScene.sks in Resources */,
+				821FA5972224D62A005796AF /* Assets.xcassets in Resources */,
+				821FA58F2224D629005796AF /* Actions.sks in Resources */,
+				821FA59A2224D62A005796AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA5A12224D62A005796AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA5AC2224D62A005796AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821FA5822224D629005796AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FA5C82224D65F005796AF /* LLRBTree.m in Sources */,
+				821FA5952224D629005796AF /* ViewController.m in Sources */,
+				821FA5C62224D65F005796AF /* main.m in Sources */,
+				821FA58B2224D629005796AF /* AppDelegate.m in Sources */,
+				821FA5C92224D65F005796AF /* GameScene.m in Sources */,
+				821FA5C72224D65F005796AF /* LLRBNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA59F2224D62A005796AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FA5A82224D62A005796AF /* LLRBTreeSimulationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FA5AA2224D62A005796AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FA5B32224D62A005796AF /* LLRBTreeSimulationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821FA5A52224D62A005796AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821FA5852224D629005796AF /* LLRBTreeSimulation */;
+			targetProxy = 821FA5A42224D62A005796AF /* PBXContainerItemProxy */;
+		};
+		821FA5B02224D62A005796AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821FA5852224D629005796AF /* LLRBTreeSimulation */;
+			targetProxy = 821FA5AF2224D62A005796AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821FA5982224D62A005796AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821FA5992224D62A005796AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821FA5B52224D62A005796AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		821FA5B62224D62A005796AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		821FA5B82224D62A005796AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LLRBTreeSimulation/LLRBTreeSimulation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		821FA5B92224D62A005796AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LLRBTreeSimulation/LLRBTreeSimulation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		821FA5BB2224D62A005796AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLRBTreeSimulation.app/Contents/MacOS/LLRBTreeSimulation";
+			};
+			name = Debug;
+		};
+		821FA5BC2224D62A005796AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLRBTreeSimulation.app/Contents/MacOS/LLRBTreeSimulation";
+			};
+			name = Release;
+		};
+		821FA5BE2224D62A005796AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLRBTreeSimulation;
+			};
+			name = Debug;
+		};
+		821FA5BF2224D62A005796AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LLRBTreeSimulationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.LLRBTreeSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLRBTreeSimulation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821FA5812224D629005796AF /* Build configuration list for PBXProject "LLRBTreeSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FA5B52224D62A005796AF /* Debug */,
+				821FA5B62224D62A005796AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FA5B72224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FA5B82224D62A005796AF /* Debug */,
+				821FA5B92224D62A005796AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FA5BA2224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FA5BB2224D62A005796AF /* Debug */,
+				821FA5BC2224D62A005796AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FA5BD2224D62A005796AF /* Build configuration list for PBXNativeTarget "LLRBTreeSimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FA5BE2224D62A005796AF /* Debug */,
+				821FA5BF2224D62A005796AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821FA57E2224D629005796AF /* Project object */;
+}
